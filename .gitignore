@@ -1,0 +1,72 @@
+# ==========================================
+# Git Ignore for SQLite Fork (BRIN Project)
+# ==========================================
+
+# Fossil control files (not used in GitHub)
+.fossil-settings/
+manifest
+manifest.uuid
+
+# Logs and configuration leftovers
+config.log
+config.status
+autom4te.cache/
+*.cache
+*.log
+
+# Compiled binaries and objects
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.out
+
+# Files generated automatically by Lemon or build
+ctime.c
+keywordhash.h
+parse.c
+parse.h
+parse.out
+parse.sql
+
+# Temporary directories
+src-verify/
+tsrc/
+__pycache__/
+*.pyc
+*.pyo
+
+# Example / test databases
+example.db
+*.db
+*.db-journal
+*.sqlite
+*.sqlite-journal
+
+# Test outputs
+test.db
+test-out.txt
+*.testcase
+*.diff
+
+# Editor / IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Compiled SQLite shell binaries
+sqlite3
+sqlite3.exe
+
+# Build intermediate folders
+build/
+Debug/
+Release/
+
